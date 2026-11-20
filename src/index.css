@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #101923;
+  --color-secondary: #192532;
+  --color-accent: #F59E0B;
+  --color-light: #F5F6F7;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
